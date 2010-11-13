@@ -2,7 +2,7 @@ from django import forms
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.exceptions import ImproperlyConfigured
 from django.db import models
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
 from django.contrib.auth.models import User, SiteProfileNotAvailable
 from userprofile.models import EmailValidation
