@@ -4,7 +4,7 @@
 # http://xml.coverpages.org/country3166.html
 
 from django.db.models.fields import CharField
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 
 COUNTRIES = [
     ('AD', _('Andorra')),
